@@ -1,49 +1,55 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 
-.body{
+body
+{
     padding:0;
     margin: 0;
     background: white;
 }
 
-.footer {
-    background-color:#ad0513;
-     color:white;
-    
-    
-}
-.footdiv
+.button
 {
-    background-color: #e20000;
-}
-.footlink
-{
-    background-color:#8a0611;
-}
-.button{
     background-color: #f75454;
 }
+
 nav
 {
 background-color:#e20000;
 color:white;
 }
 
-
-input{
+input
+{
     width:300px;
     color: white;
 }
+
 .container1
 {
-    
+   
    width: 100%;
-   height:35px;
-   background-color: rgb(207, 204, 204); 
+   height:52px;
+   background-color: rgb(223, 221, 221); 
    margin-top: 67px;
    color: black;
-
+   margin-right: 0;
+   margin-left: 0;
+   padding-top: 0;
+   padding-left: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+ 
+}
+.row1
+{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100% ;
+    margin:0px;
+    height: 52px;
 }
 .dropdown-link
 {
@@ -51,25 +57,29 @@ input{
 }
 .container2
 {
-    height:100px;
+    height:500px;
     width:100%;
     margin-left: 0rem;
-    margin-right: 0rem;
-    
-    
+    margin-right: 0rem;  
 }
 
-.humbarger
-{
-width: 20px;
-justify-content: left;
-align-self: left;
-margin-left: -10px;
-
-
-}
 a
 {
     color: white;
-    hover: blue;
+}
+
+.footer {
+    background-color:rgb(180, 0, 0);
+     color:white;
+     text-decoration: none;
+    
+    
+}
+.footdiv
+{
+    background-color:#e20000 ;
+}
+.footlink
+{
+    background-color:darkred;
 }
